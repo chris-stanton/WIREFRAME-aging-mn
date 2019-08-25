@@ -199,7 +199,11 @@ nav a {
   color: #234a87;
 }
 
-
+.housing-heading {
+  text-align: center;
+  font-size: 2.5em;
+  margin-top: 20px;
+}
 
 
 
@@ -258,6 +262,8 @@ footer .footer-container .footer-row p{
 
 
 
+
+
 @media(max-width: 1200px) {
 
 /* landing */
@@ -280,6 +286,9 @@ footer .footer-container .footer-row p{
 /* second level */
 .programs-data aside {
   display: none;
+}
+.bread-crumbs a {
+  font-size: 0.8em;
 }
 
 
