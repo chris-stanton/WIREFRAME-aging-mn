@@ -7,47 +7,6 @@
   font-family: serif sans-serif;
 }
 
-/*setting app display size*/
 body {
-  /* height: 100vh; */
   width: 100vw;
-}
-
-/* NG-CLASS */
-/* input error */
-.error-input {
-  background-color: #fff06a !important;
-  border: 2px solid #ff0000 !important;
-  outline: none;
-}
-/* input reset */
-.error-reset {
-  background-color: none;
-  border-color: none;
-}
-/* text cross out  */
-.select {
-  background-color: #00bbff !important;
-  border: 1px solid #0d7bbf !important;
-}
-.deselect {
-  background-color: #ffffff;
-  border: 1px solid #909090;
-}
-
-
-
-
-
-/* notifications global */
-.notification {
-  display: flex;
-  width: 60vw;
-  justify-content: center;
-}
-
-/* tooltip global */
-.tooltip {
-  border: 1px solid #919191;
-  border-radius: 5px;
 }
