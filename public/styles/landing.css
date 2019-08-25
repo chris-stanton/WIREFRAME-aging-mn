@@ -136,18 +136,39 @@ footer {
   align-items: center;
   align-content: center;
   color: #ffffff;
+  padding: 40px 0px;
 }
 footer .footer-container {
   display: flex;
   flex-direction: row;
   width: 80%;
-  align-items: center;
 }
-footer .footer-container div {
+footer .footer-container .footer-column {
   flex: 1;
+  text-align: center;
+}
+footer .footer-container .footer-column h4{
+  font-size: 1.2em;
+}
+footer .footer-container .footer-column h1{
+  font-size: 1.2em;
+}
+footer .footer-container .footer-column input{
+  width: 300px;
+  height: 30px;
+  margin: 5px 0px;
+}
+footer .footer-container .footer-row {
+  display: flex;
+  flex-direction: row;
   align-items: center;
   align-content: center;
-  text-align: center;
+  /* text-align: center; */
+  margin-top: 10px;
+}
+footer .footer-container .footer-row p{
+  margin: 0px 10px;
+  font-size: 0.8em;
 }
 
 
