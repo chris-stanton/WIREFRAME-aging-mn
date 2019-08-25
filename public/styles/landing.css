@@ -19,12 +19,25 @@ header {
 header .header-container {
   display: flex;
   flex-direction: row;
-  width: 70%;
+  width: 100%;
   align-content: center;
   align-items: center;
   justify-content: space-around;
 }
-header .header-container input {
+header .header-container div {
+  flex: 1;
+}
+header .header-container .header-image {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 20px;
+}
+header .header-container .header-search {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 40px;
+}
+header .header-container .header-search input {
   height: 30px;
   width: 300px;
 }
@@ -234,7 +247,7 @@ footer {
 footer .footer-container {
   display: flex;
   flex-direction: row;
-  width: 80%;
+  width: 100%;
 }
 footer .footer-container .footer-column {
   flex: 1;
@@ -261,6 +274,18 @@ footer .footer-container .footer-row {
 footer .footer-container .footer-row p{
   margin: 0px 10px;
   font-size: 0.8em;
+}
+
+.left {
+  text-align: left !important;
+  margin-left: 40px;
+}
+.right {
+  text-align: right !important;
+  margin-right: 40px;
+}
+.center {
+  text-align: center;
 }
 
 
