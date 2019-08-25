@@ -99,7 +99,7 @@ nav a {
 }
 .landing-content .landing-text-container {
   color: #234a87;
-  font-size: 2em;
+  font-size: 1.4em;
 }
 .link-img-row {
   display: flex;
@@ -207,8 +207,8 @@ nav a {
   display: flex;
   flex-direction: column;
   background-color: #888888;
-  height: 50vh;
-  width: 80%;
+  height: 40vh;
+  width: 70%;
   justify-content: center;
   align-items: center;
   font-size: 1.5em;
@@ -217,7 +217,7 @@ nav a {
 }
 .content-data p {
   margin: 20px 0px;
-  font-size: 1.4em;
+  font-size: 1.1em;
   color: #234a87;
   width: 85%;
 }
