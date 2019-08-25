@@ -53,7 +53,7 @@ nav .nav-container {
 }
 nav a {
   color: #ffffff;
-  font-size: 1.2em;
+  font-size: 1em;
   text-decoration: none;
 }
 
@@ -246,8 +246,8 @@ footer .footer-container .footer-column h1{
 }
 footer .footer-container .footer-column input{
   width: 300px;
-  height: 30px;
-  margin: 5px 0px;
+  height: 25px;
+  margin: 10px 0px;
 }
 footer .footer-container .footer-row {
   display: flex;
