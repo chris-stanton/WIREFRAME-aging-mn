@@ -20,15 +20,15 @@
       <link rel="stylesheet" href="./assets/vendors/angular-tooltips.min.css"/>
   </head>
   <body>
-    <!-- header -->
-    <header>
+    <!-- header desktop -->
+    <header class="desktop-header">
       <div class="header-container">
         <a href="#!landing"><img ng-src="./assets/images/header.png" alt="logo img"></a>
         <input type="text" placeholder="Search">
       </div>
     </header>
-    <!-- nav bar -->
-    <nav>
+    <!-- nav bar desktop -->
+    <nav class="desktop-nav">
       <div class="nav-container">
         <a href="">About Us</a>
         <a href="#!programs-services">Programs and Services</a>
@@ -36,6 +36,20 @@
         <a href="">FAQ</a>
       </div>
     </nav>
+
+    <!-- mobile nav -->
+    <nav class="mobile-nav">
+      <div class="burger">
+        <div></div>
+        <div></div>
+        <div></div>
+        <!-- <h4>MENU</h4> -->
+      </div>
+      <div>
+        <input type="text" placeholder="Search">
+      </div>
+    </nav>
+    <img src="./assets/images/header.png" alt="header image" class="mobile-logo">
 
     <main ng-view></main>
 
