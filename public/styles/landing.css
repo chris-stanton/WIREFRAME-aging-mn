@@ -326,6 +326,10 @@ footer .footer-container .footer-row p{
   .mobile-nav div {
     flex: 1;
   }
+  .mobile-nav div input{
+    height: 20px;
+    width: 150px;
+  }
   .mobile-nav .burger {
     margin: 0px 0px 0px 10px;
   }
