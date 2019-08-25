@@ -14,12 +14,11 @@ header .header-container {
   width: 70%;
   align-content: center;
   align-items: center;
+  justify-content: space-around;
 }
 header .header-container input {
-  display: flex;
   height: 30px;
-  align-items: flex-end;
-  justify-content: flex-end;
+  width: 300px;
 }
 
 
