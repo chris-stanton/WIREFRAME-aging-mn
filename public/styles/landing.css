@@ -242,7 +242,7 @@ footer .footer-container .footer-column h4{
   font-size: 1.2em;
 }
 footer .footer-container .footer-column h1{
-  font-size: 1.2em;
+  font-size: 0.8em;
 }
 footer .footer-container .footer-column input{
   width: 300px;
@@ -342,7 +342,7 @@ footer .footer-container .footer-row p{
   }
   .mobile-logo {
     display: flex;
-    width: 100%;
+    margin-left: 10px;
   }
 
 
