@@ -8,7 +8,7 @@
     "npm": "6.9.0"
   },
   "dependencies": {
-    "angular": "1.7.8",
+    "angular": "1.8.0",
     "angular-route": "1.7.8",
     "angular-tooltips": "1.2.2",
     "body-parser": "1.19.0",
